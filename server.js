@@ -1,17 +1,8 @@
 const express = require("express");
 const { Client } = require("pg");
 
-// const connectionString =
-//   "postgres://phantoxe:tR0ievJUi1dUNjX9Fu5wcLrMN8oGkBvt@dpg-cjothim1208c738hvtlg-a.oregon-postgres.render.com/my_portfolio_fmzg";
-
-// const client = new Client({
-//   connectionString: connectionString,
-// });
-
-// client.connect();
-
 const client = new Client({
-  host: "dpg-cjothim1208c738hvtlg-a",
+  host: "dpg-cjothim1208c738hvtlg-a.oregon-postgres.render.com",
   port: 5432,
   database: "my_portfolio_fmzg",
   user: "phantoxe",
